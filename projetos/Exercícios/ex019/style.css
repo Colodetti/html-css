@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body { 
+    background-color:beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    color: #25B333;
+}
+h1#principal {
+    text-align: center;
+    background-color: #2D332E;
+    color:#34893E;
+}
+h2 {
+    color: rgb(52, 43, 34);
+}
+.básico {
+    color: #BB74A9;
+}
+.intermediário {
+    color: #A5408C;
+}
+.avançado {
+    color:#8F1570;
+}
+.destaque {
+    background-color: #fc93e2;
+}
+p {
+    text-align: justify;
+}

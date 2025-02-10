@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body{
+            font-family: "Noto Sans", serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            background-color: dimgray;
+            text-align: justify;
+        }
+        header {
+            background-color: white;
+            margin: auto;
+            text-align: center;
+            padding-bottom: 5px;
+            margin: 5px;
+            border-radius: 10px;
+
+        }
+        h1 {
+            box-shadow:1px 1px 3px 1px rgba(0, 0, 0, 0.301);;
+        }
+        nav {
+            background-color: rgb(87, 87, 87);
+            padding: 3px;
+            margin: 10px;
+            box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.301);
+            border-radius: 10px;
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        nav > a:hover {
+            text-decoration:underline;
+        }
+        main {
+           background-color: white; 
+           padding: 10px;
+           margin: 10px 5px;
+           border-radius: 10px;
+           box-shadow: 2px 1px 8px 0px rgba(0, 0, 0, 0.435);
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 10px;
+
+        }
+        article > aside {
+            background-color: rgba(8, 8, 8, 0.604);
+            text-align: center;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px 5px;
+            border-radius: 10px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        #assuntos {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <Main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium non dolorem illo quaerat quos blanditiis nulla harum? Quia dicta aliquam ducimus consequatur praesentium eveniet totam vitae labore. Modi explicabo sunt aperiam aliquid facilis sapiente omnis porro at, minus sed sit voluptatem corporis nihil natus, accusantium ducimus nisi numquam! Ratione veritatis aperiam non odio, tempora similique vero sunt atque, ad facere tenetur reiciendis eum voluptates praesentium perferendis, corrupti ex. Dolor, porro. Obcaecati ducimus nesciunt numquam assumenda ipsam. Quae debitis repellat beatae ullam doloribus atque vero aliquid, qui inventore quod omnis nesciunt maxime iusto, minus facilis magni eum consectetur cupiditate sit nemo!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </Main>
+    <footer>
+        <p>Desenvolvido por Enzo Colodetti</p>
+    </footer>
+    
+</body>
+</html>
